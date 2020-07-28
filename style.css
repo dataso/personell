@@ -1,0 +1,165 @@
+body {
+    background: #141421;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.brand-logo {
+    width: 50px;
+    position: relative;
+    bottom: 13px;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-primary {
+    background-color: #F45C43!important;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus {
+    background-color: #cb4c37!important;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 82, 0, 0.25);
+}
+
+.text-primary {
+    color: #F45C43!important;
+}
+
+.dropdown {
+    bottom: 0.8rem;
+}
+
+.btn-drop {
+    /*   width: 120px;
+    height: 35px;
+    border-radius: 30em; */
+    background-color: #EB3349;
+    background: linear-gradient(to right, #F45C43, #EB3349);
+}
+
+.dropdown-toggle::after {
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #f45c43;
+}
+
+.highlight {
+    border-radius: 15px;
+    background: #0b1013;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.img-fluid {
+    border-radius: 15px;
+}
+
+.text-hello {
+    font-family: Myriad Pro;
+    font-size: 25pt;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-top: 3rem;
+}
+
+.text-name {
+    font-family: Myriad Pro;
+    font-weight: 100;
+    text-align: center;
+    font-size: 45pt;
+    letter-spacing: 5px;
+}
+
+.text-designation {
+    font-family: Myriad Pro;
+    font-weight: 700;
+    border: 3px solid;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    letter-spacing: 3px;
+    font-size: 1.6rem;
+}
+
+.btn-remove-outline,
+.btn-outline:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-know {
+    font-family: Myriad Pro;
+    font-weight: 500;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    letter-spacing: 3px;
+    color: #0b1013;
+    background: #fff;
+    font-size: 1.6rem;
+    border-radius: 0;
+}
+
+.text-find-me {
+    color: #fff;
+    font-size: 13pt;
+    font-family: Myriad Pro;
+    letter-spacing: 2px;
+    padding-left: 75px;
+    padding-top: 4rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.connect {
+    width: 15.9rem;
+    margin-left: 1.4rem;
+    margin-top: -1.6rem;
+}
+
+.connect li {
+    display: inline-block;
+    font-size: 16pt;
+    padding: 10px;
+}
+
+.connect a {
+    color: #fff;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
+    overflow-y: hidden;
+}
+
+.h {
+    height: 60vh;
+}
